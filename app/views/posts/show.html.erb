@@ -1,6 +1,8 @@
-Information About the Post
+<h1> Information About the Post</h1>
 
 <%= render partial: "authors/author", locals: {post_author: @post.author} %>
 
-<%= @post.title %>
-<%= @post.content %>
+<%= @post.title %> <br>
+<p>
+  <%= @post.content %>
+</p>
